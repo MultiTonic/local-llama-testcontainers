@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "multitonic-local-llama"
+version = "0.1.0"
+description = "serve local models using docker's testcontainers"
+authors = ["Tonic <tonic@tonic-ai.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+testcontainers = { git = "https://github.com/testcontainers/testcontainers-python.git", branch = "main" }
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
