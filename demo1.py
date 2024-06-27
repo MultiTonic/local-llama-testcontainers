@@ -1,2 +1,2 @@
-from testcontainers import OllamaContainer
+from testcontainers.ollama import OllamaContainer, OllamaModel
 
